@@ -2,13 +2,16 @@
 import Nav from './components/Nav.astro';
 import Footer from './components/Footer.astro';
 import '../styles/style.css';
+import '../conf/menu.js;
+import '../conf/validation.js;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>About Our Locksmiths</title>
-        <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+        <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/images/logo.svg?v=2`}>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
@@ -28,7 +31,7 @@ import '../styles/style.css';
         <section class="Abous-us">
             <div class="About_us-container">
                 <div class="About-us-img">
-                    <img src="/images/locksmith.avif" alt="Locksmith technician fitting a high-security lock cylinder on a front door">
+                    <img src={`${base}/images/locksmith.avif`} alt="Locksmith technician fitting a high-security lock cylinder on a front door">
                 </div>
                 <div class="Why-us-content">
                     <h1 class="About-title">Who We Are?</h1>

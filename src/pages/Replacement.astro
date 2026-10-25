@@ -2,13 +2,16 @@
 import Nav from './components/Nav.astro';
 import Footer from './components/Footer.astro';
 import '../styles/style.css';
+import '../conf/menu.js;
+import '../conf/validation.js;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Lock Replacement Services  NW London— High-Security British Standard Locks</title>
-    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/images/logo.svg?v=2`}>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
