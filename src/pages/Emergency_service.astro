@@ -1,0 +1,218 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Emergency Locksmith Services NW London | 30-Minute Fast Arrival</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<Nav />
+<!-- 1. Service Hero Banner (Dark Image Overlay & Dual CTAs) -->
+    <header class="service-hero">
+        <div class="service-hero-content">
+            <h1>24/7 Emergency Locksmith — 30-Minute Fast Arrival</h1>
+            <p>Locked out of your home, flat, or commercial property? Our mobile emergency locksmiths operate 24 hours a day, 7 days a week with specialized non-destructive tools to get you back inside fast.</p>
+            
+            <div class="hero-cta-group">
+                <a href="tel:+442012345678" class="btn-call-red">Call Now</a>
+                <a href="#quote-section" class="btn-quote-white">Get a Free Quote</a>
+            </div>
+
+            <!-- 5 Translucent Feature Badges -->
+            <div class="hero-feature-badges">
+                <div class="badge-item">24/7 Emergency Response</div>
+                <div class="badge-item">30-Minute Target Arrival Time</div>
+                <div class="badge-item">Non-Destructive Entry Priority</div>
+                <div class="badge-item">Fixed Upfront Price — No Call-Out Charge</div>
+                <div class="badge-item">DBS Vetted & Certified Engineers</div>
+            </div>
+        </div>
+    </header>
+    <!-- 2. Split Service Details & Quote Form Section -->
+    <section class="service-detail-section" id="quote-section">
+        <div class="service-detail-container">
+            <div class="service-info-col">
+                <h2>Fast, Non-Destructive Emergency Lockout Solutions</h2>
+                <p>Being locked out can happen at the worst possible times. Whether your keys are trapped inside, snapped in the lock cylinder, or lost altogether, our local mobile locksmiths respond rapidly to resolve the situation without damaging your door frame.</p>
+                <p>Our technicians carry state-of-the-art non-destructive opening tools, lock decoders, and a complete supply of British Standard BS3621 replacement locks should a fresh lock installation be needed on the spot.</p>
+                <p>Every emergency callout is backed by guaranteed arrival targets and fixed pricing quoted before work starts, ensuring total transparency during stressful situations.</p>  
+                <a href="tel:+447312158704" class="btn-call-red">Call Now</a>
+            </div>
+            <div class="service-form-card">
+                <h3>Request Immediate Callback</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number"  maxlength="11" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="postcode" placeholder="Postcode / Area" maxlength="8" required>
+                    </div>
+                    <button type="submit" class="btn-navy-submit">Request Call Back</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- 3. Detailed Lock Types Grid -->
+    <section class="sub-services-section">
+        <div class="sub-services-container">
+            <h2>Local Emergency Locksmith Areas — Barnet & Surrounds</h2>
+            <p class="subtitle">Providing 24/7 mobile emergency cover across neighboring North West London & South Herts postcodes:</p>     
+            <div class="postcode">
+                <div class="postcode-card">
+                    <h3>EN5 & EN4</h3>
+                    <p>(High Barnet, New Barnet, East Barnet, Hadley Wood)</p>
+                </div>
+                <div class="postcode-card">
+                    <h3>N12, N2 & N3</h3>
+                    <p>(Finchley, North Finchley, East Finchley)</p>
+                </div>
+                <div class="postcode-card">
+                    <h3>NW4 & NW11</h3>
+                    <p>(Hendon, Golders Green, Brent Cross)</p>
+                </div>
+                <div class="postcode-card">
+                    <h3>NW7 & HA8</h3>
+                    <p>(Mill Hill, Edgware, Burnt Oak)</p>
+                </div>
+                <div class="postcode-card">
+                    <h3>HA1 & HA3</h3>
+                    <p>(Harrow, Wealdstone, Stanmore)</p>
+                </div>
+                <div class="postcode-card">
+                    <h3>EN6 & Potters Bar</h3>
+                    <p>(Potters Bar, Cuffley, South Herts border)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Transparent Pricing Section -->
+    <section class="Prices-section page-section">
+        <div class="price-container">
+            <h2>Lock Replacement Costs & Rates</h2>
+            <p class="subtitle">Clear, competitive pricing with zero hidden call-out fees.</p>
+            <div class="price-grid">
+                <div class="price-card">
+                    <h3>Standard Rim Cylinder</h3>
+                    <p class="price-value">From £59</p>
+                    <ul>
+                        <li>✔️ Ideal for Yale door locks</li>
+                        <li>✔️ Supplied with 3 keys</li>
+                        <li>✔️ Includes full fitting & 12-month warranty</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Euro Profile Anti-Snap Lock</h3>
+                    <p class="price-value">From £79</p>
+                    <ul>
+                        <li>✔️ British Standard BS3621 / TS007</li>
+                        <li>✔️ Anti-snap, anti-drill, anti-pick protection</li>
+                        <li>✔️ Ideal for uPVC & Composite doors</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>5-Lever Mortice Deadlock</h3>
+                    <p class="price-value">From £89</p>
+                    <ul>
+                        <li>✔️ Insurance approved (BS3621 standard)</li>
+                        <li>✔️ Heavy-duty security for wooden doors</li>
+                        <li>✔️ Supplied with keys & fitting included</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price-notice">
+                <p>💡 <em>Exact price is quoted over the phone before our engineer is dispatched so there are no surprises.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. "When Should You Replace Your Locks?" Grid -->
+    <section class="reasons-section">
+        <div class="reasons-container">
+            <h2>When Should You Replace Your Locks?</h2>
+            <p class="reasons-subtitle">Not sure if your locks need replacing? Here are the most common situations where a lock replacement is the right choice:</p>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>Moving Into a New Home</h3>
+                    <p>You have no way of knowing how many keys are in circulation. Changing external locks before unpacking secures your new home.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Lost or Stolen Keys</h3>
+                    <p>If keys are lost alongside identification, replacing your locks quickly protects your property against unauthorized entry.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>After a Break-In</h3>
+                    <p>Even if an existing lock looks undamaged after a break-in, it may be compromised. Replace affected locks immediately with British Standard alternatives.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Worn or Damaged Locks</h3>
+                    <p>Stiff or difficult-to-turn mechanisms indicate failure is near. Replacing a worn lock prevents getting locked out at a bad time.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>End of Tenancy</h3>
+                    <p>Landlords should replace or rekey external locks between tenancies to protect new occupants and limit liability.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Security Upgrade</h3>
+                    <p>Older properties with non-compliant locks can be upgraded to anti-snap cylinders to reduce vulnerability and satisfy insurer requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Step-by-Step Booking Process -->
+    <section class="steps-section">
+        <div class="steps-container">
+            <h2>Simple 3-Step Booking Process</h2>
+            <div class="steps-grid">
+                <div class="step-box">
+                    <span class="step-num">STEP 1</span>
+                    <h3>Make Appointment</h3>
+                    <p>Book a time that suits your schedule via phone or online.</p>
+                </div>
+                <div class="step-box">
+                    <span class="step-num">STEP 2</span>
+                    <h3>Fast Arrival</h3>
+                    <p>Our mobile team arrives promptly equipped with full stock.</p>
+                </div>
+                <div class="step-box">
+                    <span class="step-num">STEP 3</span>
+                    <h3>Problem Solved</h3>
+                    <p>Effective security solutions delivered on-site with zero hassle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Local Areas Coverage Section -->
+    <section class="Area-sections">
+        <div class="Area-container">
+            <h2>Areas We Cover Across London</h2>
+            <p>Providing fast, 24/7 mobile locksmith services in your local neighborhood:</p>
+            <div class="area-grid">
+                <a href="Barnet.html" class="area-box">Locksmith Barnet</a>
+                <a href="Westminster.html" class="area-box">Locksmith Westminster</a>
+                <a href="Kensigton.html" class="area-box">Locksmith Kensington</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+    </body>
+</html>

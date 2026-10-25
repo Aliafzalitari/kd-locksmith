@@ -1,0 +1,135 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Locksmiths Wembley — 24/7 Local Emergency & Mobile Locksmith</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<Nav />
+    <header>
+    <div class="service-hero">
+                <div class="service-hero-content">
+                    <h1>Local Locksmith in Wembley & Surrounds</h1>
+                    <p>Fast, reliable mobile locksmith services across Wembley, Harrow, Alperton, and surrounding North West London areas. Available 24/7 for lockouts, replacements, and emergency repairs.</p>
+                    <div class="hero-cta-group">
+                        <a href="tel:+447312158704" class="btn-call-red">Call Wembley Engineer Now</a>
+                    </div>
+                    <div class="hero-feature-badges">
+                        <div class="badge-item">Local Wembley Mobile Units</div>
+                        <div class="badge-item">30-Minute Target Arrival</div>
+                        <div class="badge-item">British Standard BS3621 Fitted</div>
+                        <div class="badge-item">Zero Call-Out Fee</div>
+                        <div class="badge-item">DBS Vetted Technicians</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+                
+        <section class="service-detail-section" id="quote-section">
+            <div class="service-detail-container">
+                <div class="service-info-col">
+                    <h2>Trusted Locksmith Services in Wembley</h2>
+                    <p>Our mobile locksmith units are stationed around Wembley and the wider Brent and Harrow boroughs to provide fast emergency support when you are locked out.</p>
+                    <p>Whether you need commercial security upgrades near Wembley Park, emergency residential lock changes in Alperton, or front door repairs, our local experts carry full stock to resolve your issue immediately.</p>
+                    <p>We pride ourselves on transparent pricing, non-destructive entry techniques wherever possible, and a professional standard of workmanship backed by a 12-month parts warranty.</p>
+                </div>
+                <div class="service-form-card">
+                <h3>Request Wembley Callback</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number" maxlength="11" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="postcode" placeholder="Wembley Postcode (e.g. HA0, HA9)" maxlength="8" required>
+                    </div>
+                    <button type="submit" class="btn-navy-submit">Request Call Back</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    <section class="sub-services-section">
+        <div class="sub-service-container">
+           <h2>Wembley Postcodes We Cover</h2>
+           <p class="subtitle">Rapid 24/7 mobile response across all local neighborhoods:</p>
+           <div class="postcode">
+            <div class="postcode-card">
+                <h3>HA9 & HA0</h3>
+                <p>(Wembley, Wembley Park, Alperton, Sudbury)</p>
+            </div>
+            <div class="postcode-card">
+                <h3>NW10</h3>
+                <p>(Willesden, Harlesden, Kensal Green)</p>
+            </div>
+            <div class="postcode-card">
+                <h3>HA2 & HA4</h3>
+                <p>(North Harrow, South Harrow, Ruislip)</p>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section class="Prices-section">
+        <div class="price-container">
+            <h2>Wembley Locksmith Rates</h2>
+            <p class="subtitle">Clear, competitive pricing with zero hidden call-out fees.</p>
+            <div class="price-grid">
+                <div class="price-card">
+                  <h3>Emergency Lockout</h3>
+                  <p class="price-value">From £59</p>
+                  <ul>
+                    <li>✔️ Non-destructive entry focus</li>
+                    <li>✔️ Sub-30 minute arrival target</li>
+                    <li>✔️ £0 call-out charge</li>
+                  </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Anti-Snap Euro Cylinder</h3>
+                    <p class="price-value">From £89</p>
+                    <ul>
+                      <li>✔️ Sold Secure Diamond rating</li>
+                      <li>✔️ Anti-snap, anti-drill, anti-pick</li>
+                      <li>✔️ Includes 3 new keys</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Lock Repair & Service</h3>
+                    <p class="price-value">From £49</p>
+                    <ul>
+                      <li>✔️ uPVC gearbox & handle fixes</li>
+                      <li>✔️ Door alignment adjustments</li>
+                      <li>✔️ 12-month warranty</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price-notice">
+                <p>💡 <em>Exact price is quoted over the phone before dispatching our Wembley technician.</em></p>
+            </div>
+        </div>
+    </section>
+    <section class="Area-sections">
+        <div class="Area-container">
+            <h2>Explore Other Coverage Hubs</h2>
+            <p>We also operate mobile units across neighboring North West London areas:</p>
+            <div class="area-grid">
+                <a href="Camden.html" class="area-box">Camden Town & Surrounds</a>
+                <a href="Barnet.html" class="area-box">Barnet Hub</a>
+            </div>
+        </div>
+    </section>
+        <Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+    </body>
+</html>

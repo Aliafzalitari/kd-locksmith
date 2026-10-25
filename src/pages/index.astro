@@ -1,0 +1,138 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Emergency Locksmith North West London | 24/7 Fast Response</title>
+        <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<Nav />
+
+	<header>
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Reliable & Fast 24/7 Locksmith Services</h1>
+                    <p>Locked out? Need your locks replaced? Local locksmiths arriving at your door in under 30 minutes.</p>
+                    <ul class="hero-features">
+                        <li>⚡ 24/7 Emergency Response</li>
+                        <li>🚗 30-Minute Fast Arrival</li>
+                        <li>💰 No Call-Out Charge</li>
+                        <li>🛡️ DBS Checked & Fully Insured</li>
+                    </ul>
+                    <div class="hero-contact">
+                        <a href="tel:+447312158704" class="btn-call">📞 Call Now: 731 2158 704</a>
+                    </div>
+                </div>
+                <div class="hero-contact-form">
+                    <h3>Call back request</h3>
+                    <p>Fill out the form and we will call you shortly.</p>
+                    <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                        <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                        <div class="form">
+                            <label for="name">Full name</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="Your Name" maxlength="150" required><br>
+                        </div>
+                        <div class="form">
+                            <label for="phone">Phone number</label><br>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" maxlength="11" required><br>
+                        </div>
+                        <div class="form">
+                            <label for="email">Email Address</label><br>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                        </div>
+                        <div class="form-options">
+                            <label for="service">Choose your service</label><br>
+                            <select id="services" name ="services">
+                                <option value="Emergency Lockout">Emergency Lockout</option>
+                                <option value="Lock Replacement">Lock Replacement</option>
+                                <option value="Lock Repaire">Lock Repaire</option>
+                                <option value="Other">Other query</option>
+                            </select>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn-submit">Request Call</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <section class="trustBar">
+            <div class="trustcontainer">
+                <div class="trustitem">
+                    <img src="/images/dbs.svg" alt="DBS checked locksmith technician">
+                    <span>DBS Checked</span>
+                </div>
+                <div class="trustitem">
+                    <img src="/images/Brithis-standard.svg" alt="British Standard BS3621 approved locks">
+                    <span>Brithish Standard Locks</span>
+                </div>
+                <div class="trustitem">
+                    <img src="/images/warranty.svg" alt="12 month guarantee on parts and labour">
+                    <span>12 Month Guarantee</span>
+                </div>
+            </div>
+        </section>
+        <section class="Services">
+            <div class="service-container">
+                <h2>Our Locksmith Services</h2>
+                <p class="subtitle">Fast, professional, and non-destructive lock solutions across your local area.</p>
+                <div class="Service-grid">
+                    <div class="Service1">
+                        <img src="/images/emergency-lockouts.webp" alt="Emergency locksmith picking door lock mechanism in North West London" class="card-img">
+                        <h3>Emergency Lockout</h3>
+                        <p>Locked out of your home or office? Our 24/7 emergency locksmiths reach you in 30 minutes.</p>
+                        <a href="Emergency_service.html">Learn More &rarr;</a>
+                    </div>
+                    <div class="Service2">
+                        <img src="/images/lock-change.webp" alt="Locksmith fitting a high security anti-snap cylinder lock with key" class="card-img">
+                        <h3>Lock Replacement</h3>
+                        <p>Upgrading your security or moving home? We fit British Standard anti-snap high-security locks.</p>
+                        <a href="Replacement.html">Learn More &rarr;</a>
+                    </div>
+                    <div class="Service3">
+                        <img src="/images/lock-repair.webp" alt="Locksmith lubricating and repairing a uPVC door lock mechanism" class="card-img">
+                        <h3>Lock Repaire</h3>
+                        <p>Jammed mechanisms, broken keys, or faulty uPVC door handles? We repair all lock types fast.</p>
+                        <a href="Repaire.html">Learn More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="About-us">
+            <div class="About_us-container">
+                <div class="About-us-img">
+                    <img src="/images/locksmith.avif" alt="Locksmith technician fitting a high-security lock cylinder on a front door">
+                </div>
+                <div class="Why-us-content">
+                    <h2>Why Trust Our Locksmiths</h2>
+                    <p>We are a local, independent locksmith business committed to providing fast response times and fair, upfront pricing with no hidden surprises.</p>
+                    <ul>
+                        <li>✔️ <strong>30-Minute Emergency Response:</strong> Local mobile vans nearby.</li>
+                        <li>✔️ <strong>Fixed Upfront Pricing:</strong> Free estimates over the phone.</li>
+                        <li>✔️ <strong>Non-Destructive Entry:</strong> We prioritize opening doors without damage.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="Area-sections">
+            <div class="Area-container">
+                <h2>Areas We Cover</h2>
+                <p>Providing 24/7 mobile locksmith services across:</p>
+                <div class="area-grid">
+                    <a href="Barnet.html" class="area-box">Locksmith Barnet</a>
+                    <a href="Wembley.html" class="area-box">Locksmith Wembley</a>
+                    <a href="camden.html" class="area-box">Locksmith camden</a>
+                </div>
+            </div>
+        </section>
+	<Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+   </body>
+</html>

@@ -1,0 +1,200 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lock Replacement Services  NW London— High-Security British Standard Locks</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<Nav />
+
+<!-- 1. Service Hero Banner -->
+    <header class="service-hero">
+        <div class="service-hero-content">
+            <h1>Lock Replacement Services — Upgrade Your Security Today</h1>
+            <p>Looking to replace lost keys, upgrade to anti-snap cylinders, or install insurance-approved British Standard BS3621 locks? Our mobile technicians carry full stock for same-day installation.</p>
+            
+            <div class="hero-cta-group">
+                <a href="tel:+447312158704" class="btn-call-red">Call For Lock Change</a>
+                <a href="#quote-section" class="btn-quote-white">Get a Free Quote</a>
+            </div>
+
+            
+            <div class="hero-feature-badges">
+                <div class="badge-item">Insurance Approved BS3621</div>
+                <div class="badge-item">Anti-Snap & Anti-Drill Protection</div>
+                <div class="badge-item">Express Same-Day Fitting</div>
+                <div class="badge-item">Zero Call-Out Fee</div>
+                <div class="badge-item">DBS Vetted Local Engineers</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Split Service Details & Quote Form Section -->
+    <section class="service-detail-section" id="quote-section">
+        <div class="service-detail-container">
+            <div class="service-info-col">
+                <h2>Professional Lock Changing & Security Upgrades</h2>
+                <p>Whether you've just moved into a new property, lost your keys, or experienced a faulty cylinder, changing your locks is the single most effective step to ensure home security.</p>
+                <p>We supply and fit high-security replacements for all door types—including uPVC multipoint mechanisms, composite front doors, wooden mortice locks, and commercial night latches.</p>
+                <p>All of our replacement locks comply with UK insurance requirements (BS3621) and feature advanced anti-snap, anti-pick, and anti-drill resistance.</p>
+                
+                <a href="tel:+447312158704" class="btn-call-red">Call 731 2158 704</a>
+            </div>
+
+            <div class="service-form-card">
+                <h3>Request a Lock Change Quote</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number"  maxlength="11" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="postcode" placeholder="Postcode / Location"  maxlength="8" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="lock_type">
+                            <option value="" disabled selected>Select Lock or Door Type</option>
+                            <option value="uPVC Door Lock">uPVC / Composite Door Cylinder</option>
+                            <option value="Wooden Mortice Lock">Wooden Door Mortice Lock (BS3621)</option>
+                            <option value="Night Latch / Yale">Night Latch / Yale Lock</option>
+                            <option value="Commercial Lock">Commercial / Office Lock</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="description" placeholder="Brief Details (e.g. lost keys, upgrading locks)"  maxlength="500" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-navy-submit">Get Free Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Sub-Services / Lock Types Grid -->
+    <section class="sub-services-section">
+        <div class="sub-services-container">
+            <h2>Types of Locks We Replace</h2>
+            <p class="subtitle">Fully stocked vans carrying standard and high-security hardware for immediate fitting.</p>
+            
+            <div class="sub-services-grid">
+                <div class="sub-service-card">
+                    <h3>uPVC & Composite Euro Cylinders</h3>
+                    <p>Anti-snap 3-star euro cylinders engineered specifically to protect uPVC and composite doors from lock-snapping attacks.</p>
+                </div>
+                <div class="sub-service-card">
+                    <h3>BS3621 Mortice Locks</h3>
+                    <p>5-lever sashlocks and deadlocks required by standard UK home insurance policies for timber front and back doors.</p>
+                </div>
+                <div class="sub-service-card">
+                    <h3>Night Latches & Rim Cylinders</h3>
+                    <p>Traditional surface-mounted Yale-style latches with auto-locking functionality for communal and domestic front doors.</p>
+                </div>
+                <div class="sub-service-card">
+                    <h3>Keyed-Alike Systems</h3>
+                    <p>Operate multiple doors in your home or office using a single master key for maximum convenience.</p>
+                </div>
+                <div class="sub-service-card">
+                    <h3>Commercial High-Security Locks</h3>
+                    <p>Heavy-duty locks, shutter locks, and digital keypads designed to secure business premises and storefronts.</p>
+                </div>
+                <div class="sub-service-card">
+                    <h3>uPVC Multipoint Gearboxes</h3>
+                    <p>Replacement central gearbox mechanisms for multipoint locking systems when door handles fail to lift.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Pricing Section -->
+    <section class="Prices-section page-section">
+        <div class="price-container">
+            <h2>Transparent Lock Replacement Rates</h2>
+            <p class="subtitle">Clear, competitive pricing with zero hidden call-out fees.</p>
+            <div class="price-grid">
+                <div class="price-card">
+                    <h3>Standard Euro Cylinder</h3>
+                    <p class="price-value">From £69</p>
+                    <ul>
+                        <li>✔️ Standard uPVC & patio fit</li>
+                        <li>✔️ Includes 3 new keys</li>
+                        <li>✔️ 12-month warranty</li>
+                    </ul>
+                </div>
+                <div class="price-card highlight">
+                    <h3>Anti-Snap High Security</h3>
+                    <p class="price-value">From £89</p>
+                    <ul>
+                        <li>✔️ 3-Star Sold Secure diamond rating</li>
+                        <li>✔️ Anti-snap, anti-pick, anti-drill</li>
+                        <li>✔️ Ideal for external doors</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>BS3621 Mortice Lock</h3>
+                    <p class="price-value">From £79</p>
+                    <ul>
+                        <li>✔️ 5-lever insurance compliant</li>
+                        <li>✔️ Solid wooden door installation</li>
+                        <li>✔️ Includes keys & faceplate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price-notice">
+                <p>💡 <em>Exact costs are provided upfront over the phone or on-site before work begins.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Step-by-Step Installation Process -->
+    <section class="steps-section">
+        <div class="steps-container">
+            <h2>Our 3-Step Lock Replacement Process</h2>
+            <div class="steps-grid">
+                <div class="step-box">
+                    <span class="step-num">STEP 1</span>
+                    <h3>Assessment</h3>
+                    <p>Our locksmith inspects your existing door and recommends the optimal replacement lock.</p>
+                </div>
+                <div class="step-box">
+                    <span class="step-num">STEP 2</span>
+                    <h3>Precision Fitting</h3>
+                    <p>We replace the old lock cylinder or mechanism using professional tools for smooth operation.</p>
+                </div>
+                <div class="step-box">
+                    <span class="step-num">STEP 3</span>
+                    <h3>Testing & Key Handover</h3>
+                    <p>We thoroughly test the new keys and lock functions before handing over your completed setup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Local Area Links -->
+    <section class="Area-sections">
+        <div class="Area-container">
+            <h2>Areas We Cover Across London</h2>
+            <p>Providing fast, mobile lock replacement services right to your door:</p>
+            <div class="area-grid">
+                <a href="Barnet.html" class="area-box">Locksmith Barnet</a>
+                <a href="Wembley.html" class="area-box"> Locksmith Wembley & Harrow Hub</a>
+                <a href="camden.html" class="area-box">Locksmith Camden Town & Surrounds</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+    </body>
+</html>

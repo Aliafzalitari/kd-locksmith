@@ -1,0 +1,59 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Contact Our North West London Locksmiths | Get a Fast Callback</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<Nav />
+
+    <header>
+            <div class="service-hero-content">
+                <span class="hero-tag"> Get In Touch</span>
+                    <h1>Contact Our 24/7 Dispatch Team</h1>
+                    <p>Reach out to us directly for urgent lockouts, security upgrades, or general inquiries across North West London.</p>
+            </div>
+    </header>
+    <section class="service-detail-section" id="quote-section">
+        <div class="services_detail-container">
+            <div class="Service-info">
+                <h2>Direct Contact Lines</h2>
+                <p><strong>📞 Immediate Emergency Phone:</strong> <a href="tel:+447312158704">731 2158 704</a></p>
+                <p><strong>✉️ Email Inquiries:</strong> <a href="mailto:kdblocksmith@gmail.com">kdblocksmith@gmail.com</a></p>
+                <p><strong>⏰ Operating Hours:</strong> 24 Hours / 7 Days a Week</p>
+                <p><strong>📍 Local Base:</strong> Serving Barnet, Westminster, Kensington, and surrounding postcodes.</p>
+            </div>
+            <div class="service-form">
+                <h3>Send us a Message</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Contact Number" maxlength="11" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="description" placeholder="Brief Details  (e.g. lost keys, upgrading locks)" maxlength="500" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-navy-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+    </body>
+</html>

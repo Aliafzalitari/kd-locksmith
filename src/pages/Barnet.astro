@@ -1,0 +1,139 @@
+---
+import Nav from './components/Nav.astro';
+import Footer from './components/Footer.astro';
+import '../styles/style.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Locksmiths Barnet — 24/7 Local Emergency & Mobile Locksmith</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<Nav />
+    <header>
+            <div class="service-hero">
+                <div class="service-hero-content">
+                    <h1>Local Locksmith in Barnet & Surrounds</h1>
+                    <p>Fast, reliable mobile locksmith services across High Barnet, Finchley, Hendon, and surrounding North West London areas. Available 24/7 for lockouts, replacements, and emergency repairs.</p>
+                    <div class="hero-cta-group">
+                        <a href="tel:+447312158704" class="btn-call-red">Call Barnet Engineer Now</a>
+                    </div>
+                    <div class="hero-feature-badges">
+                        <div class="badge-item">Local Barnet Mobile Units</div>
+                        <div class="badge-item">30-Minute Target Arrival</div>
+                        <div class="badge-item">British Standard BS3621 Fitted</div>
+                        <div class="badge-item">Zero Call-Out Fee</div>
+                        <div class="badge-item">DBS Vetted Technicians</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+                
+        <section class="service-detail-section" id="quote-section">
+            <div class="service-detail-container">
+                <div class="service-info-col">
+                    <h2>Trusted Locksmith Services in Barnet</h2>
+                    <p>As our primary operational hub, our mobile locksmith units are continuously stationed across the Barnet borough to ensure rapid response times when you need assistance most.</p>
+                    <p>Whether you are locked out of a residential property in Finchley, need emergency lock changes in Hendon, or require uPVC gearbox repairs in High Barnet, our local experts carry full stock to solve your problem on the spot.</p>
+                    <p>We pride ourselves on transparent pricing, non-destructive entry techniques wherever possible, and a professional standard of workmanship backed by a 12-month parts warranty.</p>  
+                </div>
+                <div class="service-form-card">
+                <h3>Request Barnet Callback</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="callback-form">
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number"  maxlength="11" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="postcode" placeholder="Barnet Postcode (e.g. EN5, N12)"  maxlength="8" required>
+                    </div>
+                    <button type="submit" class="btn-navy-submit">Request Call Back</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    <section class="sub-services-section">
+        <div class="sub-service-container">
+           <h2>Barnet Postcodes We Cover</h2>
+           <p class="subtitle">Rapid 24/7 mobile response across all local neighborhoods:</p>
+           <div class="postcode">
+            <div class="postcode-card">
+                <h3>EN5 & EN4</h3>
+                <p>(High Barnet, New Barnet, East Barnet, Hadley Wood)</p>
+            </div>
+            <div class="postcode-card">
+                <h3>N12, N2 & N3</h3>
+                <p>(Finchley, North Finchley, East Finchley)</p>
+            </div>
+            <div class="postcode-card">
+                <h3>NW4 & NW11</h3>
+                <p>(Hendon, Golders Green, Brent Cross)</p>
+           </div>
+           <div class="postcode-card">
+                <h3>NW7 & HA8</h3>
+                <p>(Mill Hill, Edgware, Burnt Oak)</p>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section class="Prices-section">
+        <div class="price-container">
+            <h2>Barnet Locksmith Rates</h2>
+            <p class="subtitle">Clear, competitive pricing with zero hidden call-out fees.</p>
+            <div class="price-grid">
+                <div class="price-card">
+                  <h3>Emergency Lockout</h3>
+                  <p class="price-value">From £59</p>
+                  <ul>
+                    <li>✔️ Non-destructive entry focus</li>
+                    <li>✔️ Sub-30 minute arrival target</li>
+                    <li>✔️ £0 call-out charge</li>
+                  </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Anti-Snap Euro Cylinder</h3>
+                    <p class="price-value">From £89</p>
+                    <ul>
+                      <li>✔️ Sold Secure Diamond rating</li>
+                      <li>✔️ Anti-snap, anti-drill, anti-pick</li>
+                      <li>✔️ Includes 3 new keys</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Lock Repair & Service</h3>
+                    <p class="price-value">From £49</p>
+                    <ul>
+                      <li>✔️ uPVC gearbox & handle fixes</li>
+                      <li>✔️ Door alignment adjustments</li>
+                      <li>✔️ 12-month warranty</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price-notice">
+                <p>💡 <em>Exact price is quoted over the phone before dispatching our Barnet technician.</em></p>
+            </div>
+        </div>
+    </section>
+    <section class="Area-sections">
+        <div class="=Area-container">
+            <h2>Explore Other Coverage Hubs</h2>
+            <p>We also operate mobile units across neighboring North West London areas:</p>
+            <div class="area-grid">
+                <a href="Camden.html" class="area-box">Camden Town & Surrounds</a>
+                <a href="Wembley.html" class="area-box">Wembley & Harrow Hub</a>
+            </div>
+        </div>
+    </section>
+    <Footer />
+    <script is:inline src="/menu.js"></script>
+    <script is:inline src="/validation.js"></script>
+    </body>
+</html>
