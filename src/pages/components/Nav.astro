@@ -1,3 +1,8 @@
+---
+const base = import.meta.env.BASE_URL;
+---    
+    
+    
     <nav>
             <div class="navigation-log">
                 <a href="#"><strong>Locksmiths</strong></a>
@@ -8,7 +13,7 @@
                 <span></span>
             </button>
             <ul class="nav_links">
-                <li class="link"><a href="/">Home</a></li>
+                <li class="link"><a href={base +"/"}>Home</a></li>
                 <li class="link"><a href={base + "/About_us"}>About Us</a></li>
                 <!--Dropdown services-->
                 <li class="link dropdown">

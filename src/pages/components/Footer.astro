@@ -1,9 +1,14 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+
 <footer class="web-footer">
             <div class="footer-container">
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href={base + "/"}>Home</a></li>
                         <li><a href={base + "/About_us"}>About Us</a></li>
                         <li><a href={base + "/Prices"}>Prices</a></li>
                         <li><a href={base + "/Contact"}>Contact Us</a></li>
