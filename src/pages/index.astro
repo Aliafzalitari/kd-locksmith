@@ -2,8 +2,6 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/style.css';
-import '../conf/menu.js;
-import '../conf/validation.js';
 const base = import.meta.env.BASE_URL;
 ---
 <!DOCTYPE html>
@@ -135,7 +133,9 @@ const base = import.meta.env.BASE_URL;
             </div>
         </section>
 	<Footer />
-    <script is:inline src="/menu.js"></script>
-    <script is:inline src="/validation.js"></script>
+    <script>
+      import '../conf/menu.js';
+      import '../conf/validation.js';
+    </script>
    </body>
 </html>
