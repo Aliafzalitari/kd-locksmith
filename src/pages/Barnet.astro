@@ -50,12 +50,15 @@ const base = import.meta.env.BASE_URL;
                     <div class="cf-turnstile" data-sitekey="0x4AAAAAAFokTNBTzas9YALS"></div>
                     <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
                     <div class="form-group">
+                        <label for="user-name">Your Name</label>
                         <input type="text" name="name" placeholder="Your Name" maxlength="150" required>
                     </div>
                     <div class="form-group">
+                        <label for="user-phone">Phone Number</label>
                         <input type="tel" name="phone" placeholder="Phone Number"  maxlength="11" required>
                     </div>
                     <div class="form-group">
+                        <label for="user-postcode">Postcode</label>
                         <input type="text" name="postcode" placeholder="Barnet Postcode (e.g. EN5, N12)"  maxlength="8" required>
                     </div>
                     <button type="submit" class="btn-navy-submit">Request Call Back</button>
