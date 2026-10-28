@@ -285,7 +285,8 @@ header {
     .hero-contact-form input,
     .hero-contact-form textarea,
     .hero-contact-form select {
-        width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
         display:block;
         box-sizing: border-box;
         padding: 0.75rem 1rem;
