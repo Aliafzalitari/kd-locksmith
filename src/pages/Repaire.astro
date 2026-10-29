@@ -2,13 +2,13 @@
 import Nav from './components/Nav.astro';
 import Footer from './components/Footer.astro';
 import '../styles/style.css';
-const base = import.meta.env.BASE_URL;
+//const base = import.meta.env.BASE_URL;
 ---
 <!DOCTYPE html>
 <html lang="en">
     <head>
     <title>Lock Repair Services North West London | Fast Door & Lock Fixes</title>
-    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/images/logo.svg?v=2`}>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg?v=2">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="stylesheet" href={base + "/styles/style.css"}>-->
@@ -123,9 +123,9 @@ const base = import.meta.env.BASE_URL;
             <h2>Select Your Local Coverage Area</h2>
             <p>Our mobile units operate across neighboring North West London boroughs for rapid response:</p>
             <div class="area-grid">
-                <a href={base + "/Barnet/"} class="area-box">Barnet & Surrounding Postcodes</a>
-                <a href={base + "/Camden/"} class="area-box">Camden Town & Surrounds</a>
-                <a href={base + "/Wembley/"} class="area-box">Wembley & Harrow Hub</a>
+                <a href="/Barnet/" class="area-box">Barnet & Surrounding Postcodes</a>
+                <a href="/Camden/" class="area-box">Camden Town & Surrounds</a>
+                <a href="/Wembley/" class="area-box">Wembley & Harrow Hub</a>
             </div>
         </div>
     </section>
